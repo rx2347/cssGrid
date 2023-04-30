@@ -42,4 +42,4 @@ Kinda tired messing around with overcomplex CSS frameworks? Need some easy to ad
 
 ## How to use?
 
-Include grid.css in your project, add or remove breakpoints, set variables, done.
+Include grid.css in your project, add or remove breakpoints, set variables, done. You'll find a demo grid in index.html
