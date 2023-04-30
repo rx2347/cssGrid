@@ -1,0 +1,21 @@
+{
+  "name": "cssgrid",
+  "version": "1.0.0",
+  "description": "easy to use responsive grid with breakpoints and css-variables",
+  "main": "grid.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "css-grid"
+  },
+  "keywords": [
+    "css",
+    "grid",
+    "responsive",
+    "variables"
+  ],
+  "author": "rx2347",
+  "license": "WTFPL"
+}

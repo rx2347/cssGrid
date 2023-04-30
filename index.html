@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="grid.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Responsive Grid</h1>
+    <section class="variables">
+      <h2>Variables</h2>
+      <code>--grid-col-gap: 6px; /*column gap*/</code>
+      <code>--grid-row-gap: 6px; /*row gap*/</code>
+      <code>--grid-max-width: 1200px; /*100% for no max-width*/</code>
+      <code>--grid-margin: auto; /*0 for nothing, auto for center*/</code>
+    </section>
+
+    <section class="helper">
+      <h2>Helper</h2>
+      <div>xs-hide: hide on mobile (600px and down)</div>
+      <div>md-hide: hide on medium devices (600px to 768px)</div>
+      <div>lg-hide: hide on desktop devices (768px and up)</div>
+    </section>
+
+    <div class="grid">
+      <div class="row">
+        <div class="col-6 xs-hide">col-3 xs-hide</div>
+        <div class="col-6 md-hide">col-3 md-hide</div>
+        <div class="col-6 lg-hide">col-3 lg-hide</div>
+      </div>
+    </div>
+
+    <section class="breakpoints">
+      <h2>Breakpoints</h2>
+      <div>col-xs-*: mobile (600px and down)</div>
+      <div>col-md-*: medium devices (600px to 768px)</div>
+      <div>col-*: desktop devices (768px and up)</div>
+    </section>
+
+    <div class="grid">
+      <div class="row">
+        <div class="col-1 col-md-2 col-xs-6">Col-1</div>
+        <div class="col-1 col-md-2 col-xs-6">Col-1</div>
+        <div class="col-1 col-md-2">Col-1</div>
+        <div class="col-1 col-md-2">Col-1</div>
+        <div class="col-1 col-md-2">Col-1</div>
+        <div class="col-1 col-md-2">Col-1</div>
+        <div class="col-1 col-md-2">Col-1</div>
+        <div class="col-1 col-md-4">Col-1</div>
+        <div class="col-1 col-md-4">Col-1</div>
+        <div class="col-1 col-md-2">Col-1</div>
+        <div class="col-1 col-md-6">Col-1</div>
+        <div class="col-1 col-md-6">Col-1</div>
+      </div>
+
+      <div class="row">
+        <div class="col-2">Col-2</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+      </div>
+
+      <div class="row">
+        <div class="col-3">Col-3</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+      </div>
+
+      <div class="row">
+        <div class="col-4">Col-4</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+      </div>
+
+      <div class="row">
+        <div class="col-5">Col-5</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+      </div>
+
+      <div class="row">
+        <div class="col-6">Col-6</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+      </div>
+
+      <div class="row">
+        <div class="col-7">Col-7</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+      </div>
+
+      <div class="row">
+        <div class="col-8">Col-8</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+      </div>
+
+      <div class="row">
+        <div class="col-9">Col-9</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+      </div>
+
+      <div class="row">
+        <div class="col-10">Col-10</div>
+        <div class="col-1">Col-1</div>
+        <div class="col-1">Col-1</div>
+      </div>
+
+      <div class="row">
+        <div class="col-11">Col-11</div>
+        <div class="col-1">Col-1</div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">Col-12</div>
+      </div>
+
+      <div class="row">
+        <div class="col-2">Col-2</div>
+        <div class="col-2">Col-2</div>
+        <div class="col-2">Col-2</div>
+        <div class="col-2">Col-2</div>
+        <div class="col-2">Col-2</div>
+        <div class="col-2">Col-2</div>
+      </div>
+
+      <div class="row">
+        <div class="col-3">Col-3</div>
+        <div class="col-3">Col-3</div>
+        <div class="col-3">Col-3</div>
+        <div class="col-3">Col-3</div>
+      </div>
+
+      <div class="row">
+        <div class="col-4">Col-4</div>
+        <div class="col-4">Col-4</div>
+        <div class="col-4">Col-4</div>
+      </div>
+
+      <div class="row">
+        <div class="col-6">Col-6</div>
+        <div class="col-6">Col-6</div>
+      </div>
+    </div>
+  </body>
+</html>
